@@ -1,6 +1,7 @@
 import React from 'react'
 import {BrowserRouter, Route} from 'react-router-dom'
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Navigation from './components/Navigation';
 import NotesList from './components/NotesList';
 import CreateUser from './components/CreateUser';
